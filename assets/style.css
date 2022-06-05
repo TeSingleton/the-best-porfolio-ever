@@ -1,51 +1,43 @@
 *{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+    font-family: Blippo,fantasy;
 
-}
-
-
-body{
-background-color: #add9f4;
-
-}
-
-
-h1,h2,h3,h4,h5{
-color: antiquewhite;
-
-
-}
-
-ul{
-list-style-type:none ;
     
 }
-
-section {
-background-color: #0e79b2;
-
-}
-
-a{
-text-decoration: overline;
-/* background-color:#191923 ; */
-
-}
-
-.header li{
-padding: 20px;
-font-family: Blippo, fantasy;
-font-size: larger;
-float: right;
-
+/*  */
+body{ 
+    background-color: #0081af;
+    color: #ead2ac;
 }
 
 h1{
-display: inline-block;
-text-decoration: overline;
-float: left;
+    border: 5px;
+    border-style: dashed;    
+     
+} 
 
+ul{
 
+}
+
+li{
+    float: right;
+}
+
+P{
+    background-color: brown;
+
+}
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width:100%;
 }
