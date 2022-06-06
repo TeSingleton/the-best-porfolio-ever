@@ -1,37 +1,47 @@
 * {
   font-family: Blippo, fantasy;
+  
   /* background-image: url(./images/spinning-bird.jpeg);
     */
 }
-/*  */
+
 body {
   background-color: #0081af;
   border: 2px solid;
+  /* background-image: url(./images/D5320455-16B5-46F3-B8D3-D0FEECDE50F5_1_201_a.jpeg); */
+  
   /* background-image:  */
 }
 
-h1 {
+h1,p{
   border: 5px;
+  color: white;
   /* border-style: dashed;  */
   place-items: center;
+  /* margin-top: 0%; */
 }
 div {
   display: grid;
   place-items: center;
   padding: 2em;
   margin: 0 auto;
-  background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
+  margin: 0px 283px;
+  /* background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg); */
 }
 
-ul {
-  display: grid;
+
+ul,li, a{
+    display: grid;
   height: max-content;
-  place-items: center;
-}
-
-li {
+  place-items: Left;
   float: right;
   padding: 0 1em;
+  list-style: none;
+  text-decoration: none;
+  color: whitesmoke;
+}
+ul,li, a:hover {  
+    color: purple;
 }
 
 P {
@@ -41,30 +51,32 @@ P {
 href {
   color: aliceblue;
 }
-/* aside{
-    padding: 2em;
-    margin: 0 auto;
-    background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
-} */
 
-/* .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
-
-.navbar {
-  padding: auto;
-  border-color: aliceblue;
-  overflow: hidden;
-  background-color: #2dc7ff;
-  position: relative;
-  top: 0;
-  width: 500px;
-  height: 543px;
-  font-size: 30px;
-  background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
+nav{
+    width: 100%;
+    height: 100px;
 }
+
+
+
+.name{
+    place-items: left;
+}
+
+.image {
+  display: inline-flexbox;
+  place-items: center;
+}
+
+/* .navbar {
+  display: grid;
+  place-items: center;
+  padding: 2em;
+  margin: 0 auto;
+  margin: 0px 283px;
+  font-size: 30px;
+
+} */
 
 footer {
     background-color: black;
@@ -76,7 +88,24 @@ float: center;
 }
 
 
-.page2{
+/* .page2{
 place-items: bottom;
 
-}
+} */
+
+/* aside{
+    padding: 2em;
+    margin: 0 auto;
+    background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
+} */
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+/* ul {
+  display: grid;
+  height: max-content;
+  place-items: center;
+} */
