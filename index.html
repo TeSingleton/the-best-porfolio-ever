@@ -9,14 +9,14 @@
     <title>My Awesome Portfolio</title>
   </head>
   <body>
-    <div class="navbar">
+    <div class="flexbox-container" class="navbar">
     <h1 class="name">Svante McDaniel</h1>
     <img src="./assets/images/D5320455-16B5-46F3-B8D3-D0FEECDE50F5_1_201_a.jpeg" width="200" height="200"alt="profile-photo">
     <!-- insert photo -->
     
     <!-- make nav fixed -->
 
-    <ul>
+    <ul class="flexbox-container">
       <li><a href="#aboutme">About Me</a></li>
       <li><a href="#mywork">My Work</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -24,29 +24,31 @@
     </ul>
 </div>
 
-<div>
+<div class="flexbox-container">
   <h1 id="aboutme">About Me</h1>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat sint quasi praesentium incidunt odio error veniam aspernatur. <br>Pariatur, cupiditate omnis similique iste voluptatibus veritatis unde, odit amet, repellat molestiae explicabo.</p>
 </div>
 
     
-<div>
+<div class="flexbox-container">
   <h1 id="mywork">My Work</h1>
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit impedit, ad praesentium, voluptatem quas ratione modi eveniet esse amet tenetur doloremque et, earum sed obcaecati nesciunt natus quae voluptatibus totam.</p>
 </div>
-<section class="image">
-  <img  src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100">
-  <img  src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100">
-  <img  src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100">
-</section>
+<div class="flexbox-container-img">
+  <img class="flexbox-item-1" src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100"
+  title="Place Holder 1">
+  <img class="flexbox-item-2"  src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100"
+  title="Place Holder 2">
+  <img class="flexbox-item-3" src="./assets/images/placeholder.png "alt ="placeholder" width="100" height="100" title="Place Holder 3">
+</div>
 
-<div>
+<div class="flexbox-container">
   <h1 id="contact">Contact Me</h1>
   <p>Insert Contact Info/Links </p>
 </div>
 
 
-    <footer>
+    <footer class="flexbox-container">
       <h3>Made by dope.R Web Products</h3>
     </footer>
 
