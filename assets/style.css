@@ -1,44 +1,51 @@
-*{
-    font-family: Blippo,fantasy;
-
-    
+* {
+  font-family: Blippo, fantasy;
+  /* background-image: url(./images/spinning-bird.jpeg);
+    */
 }
 /*  */
-body{ 
-    background-color: #0081af;
-    /* background-image:  */
-}   
-
-
-h1{
-    border: 5px;
-    border-style: dashed;    
-     
-} 
-aside{
- display: grid;
-    
-
+body {
+  background-color: #0081af;
+  border: 2px solid;
+  /* background-image:  */
 }
 
-ul{
-    display: grid;
-    height: max-content;
-    
-
-
+h1 {
+  border: 5px;
+  /* border-style: dashed;  */
+  place-items: center;
+}
+div {
+  display: grid;
+  place-items: center;
+  padding: 2em;
+  margin: 0 auto;
+  background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
 }
 
-li{
-    float: right;
+ul {
+  display: grid;
+  height: max-content;
+  place-items: center;
 }
 
-P{
-    background-color: brown;
-
+li {
+  float: right;
+  padding: 0 1em;
 }
 
+P {
+  background-color: brown;
+}
 
+href {
+  color: aliceblue;
+}
+/* aside{
+    padding: 2em;
+    margin: 0 auto;
+    background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
+} */
 
 /* .row {
     display: flex;
@@ -46,12 +53,30 @@ P{
     flex-wrap: wrap;
 } */
 
-.navbar{
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    top: 0;
-    width:500px;
-    height: 543px;
-    font-size: 30px;
+.navbar {
+  padding: auto;
+  border-color: aliceblue;
+  overflow: hidden;
+  background-color: #2dc7ff;
+  position: relative;
+  top: 0;
+  width: 500px;
+  height: 543px;
+  font-size: 30px;
+  background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    margin: 1px;
+  /* place-items: center;
+float: center;
+} */
+}
+
+
+.page2{
+place-items: bottom;
+
 }
