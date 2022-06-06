@@ -1,6 +1,6 @@
 * {
   font-family: Blippo, fantasy;
-  
+
   /* background-image: url(./images/spinning-bird.jpeg);
     */
 }
@@ -9,11 +9,12 @@ body {
   background-color: #0081af;
   border: 2px solid;
   /* background-image: url(./images/D5320455-16B5-46F3-B8D3-D0FEECDE50F5_1_201_a.jpeg); */
-  
+
   /* background-image:  */
 }
 
-h1,p{
+h1,
+p {
   border: 5px;
   color: white;
   /* border-style: dashed;  */
@@ -29,9 +30,10 @@ div {
   /* background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg); */
 }
 
-
-ul,li, a{
-    display: grid;
+ul,
+li,
+a {
+  display: grid;
   height: max-content;
   place-items: Left;
   float: right;
@@ -40,8 +42,10 @@ ul,li, a{
   text-decoration: none;
   color: whitesmoke;
 }
-ul,li, a:hover {  
-    color: purple;
+ul,
+li,
+a:hover {
+  color: purple;
 }
 
 P {
@@ -52,15 +56,13 @@ href {
   color: aliceblue;
 }
 
-nav{
-    width: 100%;
-    height: 100px;
+nav {
+  width: 100%;
+  height: 100px;
 }
 
-
-
-.name{
-    place-items: left;
+.name {
+  place-items: left;
 }
 
 .image {
@@ -79,14 +81,13 @@ nav{
 } */
 
 footer {
-    background-color: black;
-    color: whitesmoke;
-    margin: 1px;
+  background-color: black;
+  color: whitesmoke;
+  margin: 1px;
   /* place-items: center;
 float: center;
 } */
 }
-
 
 /* .page2{
 place-items: bottom;
