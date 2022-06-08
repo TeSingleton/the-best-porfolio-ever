@@ -1,5 +1,5 @@
 * {
-  font-family: Blippo, fantasy;
+  font-family: Courier New, Blippo, fantasy;
   
 
   /* background-image: url(./images/spinning-bird.jpeg);
@@ -28,12 +28,8 @@ p {
   /* margin-top: 0%; */
 }
 div {
-  /* background-image: url(https://i.pinimg.com/originals/a0/80/cb/a080cb3a82c9247a8b01352bfc2b2bdc.jpg); */
-  /* display: grid;
-  place-items: center;
-  padding: 2em;
-  margin: 0 auto;
-  margin: 0px 283px; */
+  width: auto;
+  min-height: 200px;
  
 }
 
@@ -57,6 +53,7 @@ a:hover {
 
 P {
   background-color: brown;
+  max-width: 400px;
 }
 
 href {
@@ -97,6 +94,7 @@ href {
   flex-wrap:wrap;
   border: dashed; 
   flex-direction: column;
+  
 
 }
 
@@ -109,20 +107,12 @@ href {
   flex-direction: row;
 }
 
-.flexbox-item-1{
+.flexbox-item-{
 min-height: fit-content;
-
-
 }
 
-.flexbox-item-2{
-  min-height: fit-content;
 
-}
-.flexbox-item-3{
-  min-height: fit-content;
 
-}
 
 footer {
   background-color: black;
@@ -143,6 +133,45 @@ float: center;
   max-width: 70px;
   
 }
+
+.wrapper{
+  max-height: 100px;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper .item{
+  width: 500px;
+  height: 50px;
+  line-height: 110px;
+  text-align: center;
+}
+
+
+
+@media all and (max-width:550px) {
+  body { 
+    background-image: url(https://c1.wallpaperflare.com/preview/866/505/167/las-vegas-vegas-stratosphere-tower.jpg);
+
+  }
+
+  
+}
+
+@media all and (max-width:558px) {
+  p {
+    flex-shrink: initial;
+  }
+}
+
+@media all and (max-width:558px) {
+  ul,li{
+    flex-shrink: initial;
+  }
+}
+
 
 
 
