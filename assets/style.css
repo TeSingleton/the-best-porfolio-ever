@@ -43,8 +43,8 @@ a {
   display: grid;
   height: max-content;
   place-items: Left;
-  float: right;
-  padding: 0 1em;
+  float: left;
+  padding: 0;
   list-style: none;
   text-decoration: none;
   color: whitesmoke;
@@ -140,6 +140,8 @@ float: center;
   left: 0;
   height: 100%;
   background-color: grey;
+  max-width: 70px;
+  
 }
 
 
