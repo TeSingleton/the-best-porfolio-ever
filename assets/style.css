@@ -92,7 +92,7 @@ href {
   justify-content: space-around;
   align-items:center;
   flex-wrap:wrap;
-  border: dashed; 
+  /* border: dashed;  */
   flex-direction: column;
   
 
