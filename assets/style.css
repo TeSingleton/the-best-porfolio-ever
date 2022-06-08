@@ -1,5 +1,6 @@
 * {
   font-family: Blippo, fantasy;
+  
 
   /* background-image: url(./images/spinning-bird.jpeg);
     */
@@ -8,6 +9,11 @@
 body {
   background-color: #0081af;
   border: 2px solid;
+  background-image: url(https://www.holidify.com/images/cmsuploads/compressed/LakeMead_20210318235234.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
   /* background-image: url(./images/D5320455-16B5-46F3-B8D3-D0FEECDE50F5_1_201_a.jpeg); */
 
   /* background-image:  */
@@ -17,11 +23,12 @@ h1,
 p {
   border: 5px;
   color: white;
-  /* border-style: dashed;  */
+  border-style: dashed; 
   place-items: center;
   /* margin-top: 0%; */
 }
 div {
+  /* background-image: url(https://i.pinimg.com/originals/a0/80/cb/a080cb3a82c9247a8b01352bfc2b2bdc.jpg); */
   /* display: grid;
   place-items: center;
   padding: 2em;
@@ -33,14 +40,14 @@ div {
 ul,
 li,
 a {
-  /* display: grid;
+  display: grid;
   height: max-content;
   place-items: Left;
   float: right;
   padding: 0 1em;
   list-style: none;
   text-decoration: none;
-  color: whitesmoke; */
+  color: whitesmoke;
 }
 ul,
 li,
@@ -56,10 +63,13 @@ href {
   color: aliceblue;
 }
 
-nav {
-  width: 100%;
-  height: 100px;
-}
+/* nav {
+  position: fixed;
+  width: 172px;
+  height: 100%;
+  
+  
+} */
 
 .name {
   place-items: left;
@@ -102,12 +112,15 @@ nav {
 .flexbox-item-1{
 min-height: fit-content;
 
+
 }
 
 .flexbox-item-2{
+  min-height: fit-content;
 
 }
 .flexbox-item-3{
+  min-height: fit-content;
 
 }
 
@@ -118,6 +131,15 @@ footer {
   /* place-items: center;
 float: center;
 } */
+}
+
+#flexbox-list{
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: grey;
 }
 
 
