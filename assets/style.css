@@ -1,9 +1,9 @@
 * {
   font-family: Courier New, Blippo, fantasy;
-  
 
-  /* background-image: url(./images/spinning-bird.jpeg);
-    */
+}
+html {
+  height: 100%;
 }
 
 body {
@@ -12,25 +12,22 @@ body {
   background-image: url(https://www.holidify.com/images/cmsuploads/compressed/LakeMead_20210318235234.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100%;
 
-  
-  /* background-image: url(./images/D5320455-16B5-46F3-B8D3-D0FEECDE50F5_1_201_a.jpeg); */
-
-  /* background-image:  */
 }
 
 h1,
 p {
   border: 5px;
   color: white;
-  border-style: dashed; 
+  /* border-style: dashed;  */
   place-items: center;
+
   /* margin-top: 0%; */
 }
 div {
   width: auto;
-  min-height: 200px;
- 
+  min-height: 300px;
 }
 
 ul,
@@ -52,78 +49,73 @@ a:hover {
 }
 
 P {
-  background-color: brown;
-  max-width: 400px;
+  /* background-color: brown; */
+  max-width: 700px;
+  border-style: solid;
+  color: white;
 }
 
 href {
   color: aliceblue;
 }
 
-/* nav {
-  position: fixed;
-  width: 172px;
-  height: 100%;
-  
-  
-} */
+footer {
+  background-color: black;
+  color: whitesmoke;
+  margin: 1px;
+
+
+}
 
 .name {
   place-items: left;
 }
 
-/* .image {
-  display: inline-flexbox;
-  place-items: center;
-} */
-
-/* .navbar {
-  display: grid;
-  place-items: center;
-  padding: 2em;
-  margin: 0 auto;
-  margin: 0px 283px;
-  font-size: 30px;
-
-} */
 /* remove border when finished */
-.flexbox-container{
+.flexbox-container {
   display: flex;
   justify-content: space-around;
-  align-items:center;
-  flex-wrap:wrap;
+  align-items: center;
+  flex-wrap: wrap;
   /* border: dashed;  */
   flex-direction: column;
-  
-
 }
 
-.flexbox-container-img{
+.flexbox-container1 {
   display: flex;
   justify-content: space-around;
-  align-items:center;
-  flex-wrap:wrap;
-  border: dashed; 
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flexbox-container-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: dashed;
   flex-direction: row;
 }
 
-.flexbox-item-{
-min-height: fit-content;
+
+
+.wrapper {
+  max-height: 116px;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
 }
 
-
-
-
-footer {
-  background-color: black;
-  color: whitesmoke;
-  margin: 1px;
-  /* place-items: center;
-float: center;
-} */
+.wrapper .item {
+  width: 500px;
+  height: 50px;
+  line-height: 110px;
+  text-align: center;
 }
 
-#flexbox-list{
+#flexbox-list {
   flex-direction: column;
   position: fixed;
   top: 0;
@@ -131,68 +123,43 @@ float: center;
   height: 100%;
   background-color: grey;
   max-width: 70px;
-  
 }
 
-.wrapper{
-  max-height: 100px;
-  max-width: 400px;
-  border: 1px solid #ddd;
-  display: flex;
-  overflow-x: auto;
-}
-
-.wrapper .item{
-  width: 500px;
-  height: 50px;
-  line-height: 110px;
-  text-align: center;
-}
-
-
-
-@media all and (max-width:550px) {
-  body { 
+@media all and (max-width: 550px) {
+  body {
     background-image: url(https://c1.wallpaperflare.com/preview/866/505/167/las-vegas-vegas-stratosphere-tower.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
   }
-
-  
 }
 
-@media all and (max-width:558px) {
+@media all and (max-width: 558px) {
+  h1,
   p {
     flex-shrink: initial;
+    color: black;
   }
 }
 
-@media all and (max-width:558px) {
-  ul,li{
-    flex-shrink: initial;
+@media all and (max-width: 558px) {
+  h1 {
+    text-decoration: underline;
   }
 }
 
+@media all and (max-width: 558px) {
+  nav,
+  ul,
+  li {
+    visibility: hidden;
+  }
+}
 
+@media all and (max-width: 558px) {
+  #mywork {
+    color: #e5eafa;
+  }
+}
 
-
-/* .page2{
-place-items: bottom;
-
-} */
-
-/* aside{
-    padding: 2em;
-    margin: 0 auto;
-    background-image: url(./images/36A8B0A8-EEC9-4479-8B9E-709E62891EA4.jpeg);
-} */
-
-/* .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
-/* ul {
-  display: grid;
-  height: max-content;
-  place-items: center;
-} */
