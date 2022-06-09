@@ -11,3 +11,9 @@ I wanted my work in a scrolling element in the center of the page.
 As I am still working on retaining the concepts learned,
 I have not fully completed the assignment,
 but I am confident that i can update this project and resubmit for a better score at a later date.
+
+
+## Screenshots
+
+![App Screenshot](./assets/images/desktopSS.jpeg)
+![App Screenshot](./assets/images/MobileSS.jpeg)
